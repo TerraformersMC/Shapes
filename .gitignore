@@ -1,0 +1,68 @@
+# Compiled class file #
+#######################
+*.class
+
+# Log File #
+############
+*.log
+
+# BlueJ files #
+###############
+*.ctxt
+
+# Mobile Tools for Java (J2ME) #
+################################
+.mtj.tmp/
+
+# Package Files #
+#################
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual Machine Crash Logs #
+##############################
+hs_err_pid*
+
+# Gradle #
+##########
+.gradle/
+build/
+out/
+classes/
+
+# IDEA #
+########
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code #
+###########
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# Eclipse #
+###########
+*.launch
+
+# Fabric #
+##########
+run/
+
+# OS Generated Files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

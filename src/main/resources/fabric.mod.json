@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "MODID",
+  "version": "${version}",
+
+  "name": "MODID",
+  "description": "MODID",
+  "authors": [
+    "Wtoll"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Wtoll/MODID",
+    "sources": "https://github.com/Wtoll/MODID"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wtoll.MODID.MODID"
+    ]
+  },
+  "mixins": [
+    "MODID.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
