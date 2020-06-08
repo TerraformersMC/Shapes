@@ -1,37 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "MODID",
+  "id": "shapes",
   "version": "${version}",
 
-  "name": "MODID",
-  "description": "MODID",
+  "name": "Shapes",
+  "description": "Shapes lib",
   "authors": [
     "Wtoll"
   ],
   "contact": {
-    "homepage": "https://github.com/Wtoll/MODID",
-    "sources": "https://github.com/Wtoll/MODID"
+    "homepage": "https://github.com/Cumulus-Mods/Shapes",
+    "sources": "https://github.com/Cumulus-Mods/Shapes"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/shapes/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "com.wtoll.MODID.MODID"
-    ]
-  },
-  "mixins": [
-    "MODID.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.7.2",
     "fabric": "*",
-    "minecraft": "1.15.x"
-  },
-  "suggests": {
-    "flamingo": "*"
+    "minecraft": "1.16.x"
   }
 }
