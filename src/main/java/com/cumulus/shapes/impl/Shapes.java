@@ -76,8 +76,16 @@ public class Shapes {
     public static Shape ellipsoid(float a, float b, float c) {
         return Shape.of(
                 (pos) -> ((pos.getX() * pos.getX())/(a * a)) + ((pos.getZ() * pos.getZ())/(b * b)) + ((pos.getY() * pos.getY())/(c * c)) < 1,
-                Position.of(a, b, c),
-                Position.of(-a, -b, -c)
+                Position.of(a, c, b),
+                Position.of(-a, -c, -b)
+        );
+    }
+
+    public static Shape hemiEllipsoid(float a, float b, float c) {
+        return Shape.of(
+                (pos) -> ((pos.getX() * pos.getX())/(a * a)) + ((pos.getZ() * pos.getZ())/(b * b)) + ((pos.getY() * pos.getY())/(c * c)) < 1 && pos.getY() > 0,
+                Position.of(a, c, b),
+                Position.of(-a, 0, -b)
         );
     }
 
