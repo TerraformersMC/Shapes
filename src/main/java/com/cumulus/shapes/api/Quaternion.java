@@ -55,6 +55,33 @@ public interface Quaternion {
         };
     }
 
+    //TODO: Revisit this
+    static Quaternion of(double x, double y, double z, boolean degrees) {
+        if (degrees) {
+            x *= 0.017453292F;
+            y *= 0.017453292F;
+            z *= 0.017453292F;
+        }
+
+        double f = Math.sin(0.5F * x);
+        double g = Math.cos(0.5F * x);
+        double h = Math.sin(0.5F * y);
+        double i = Math.cos(0.5F * y);
+        double j = Math.sin(0.5F * z);
+        double k = Math.cos(0.5F * z);
+
+        double xNew = f * i * k + g * h * j;
+        double yNew = g * h * k - f * i * j;
+        double zNew = f * h * k + g * i * j;
+        double wNew = g * i * k - f * h * j;
+
+        return of(wNew, xNew, yNew, zNew);
+    }
+
+    static Quaternion of(net.minecraft.util.math.Quaternion q) {
+        return of(q.getW(), q.getX(), q.getY(), q.getZ());
+    }
+
     static Quaternion of(Quaternion q) {
         return of(q.getW(), q.getI(), q.getJ(), q.getK());
     }
