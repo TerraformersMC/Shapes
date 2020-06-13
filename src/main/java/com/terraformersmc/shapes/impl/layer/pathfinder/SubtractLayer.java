@@ -1,8 +1,8 @@
-package com.cumulus.shapes.impl.layer.pathfinder;
+package com.terraformersmc.shapes.impl.layer.pathfinder;
 
-import com.cumulus.shapes.api.Position;
-import com.cumulus.shapes.api.Shape;
-import com.cumulus.shapes.api.layer.PathfinderLayer;
+import com.terraformersmc.shapes.api.Position;
+import com.terraformersmc.shapes.api.Shape;
+import com.terraformersmc.shapes.api.layer.PathfinderLayer;
 
 import java.util.function.Predicate;
 

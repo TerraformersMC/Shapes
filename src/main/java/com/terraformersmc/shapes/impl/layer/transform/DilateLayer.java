@@ -1,7 +1,7 @@
-package com.cumulus.shapes.impl.layer.transform;
+package com.terraformersmc.shapes.impl.layer.transform;
 
-import com.cumulus.shapes.api.Position;
-import com.cumulus.shapes.api.layer.TransformationLayer;
+import com.terraformersmc.shapes.api.Position;
+import com.terraformersmc.shapes.api.layer.TransformationLayer;
 
 /**
  * @author <Wtoll> Will Toll on 2020-06-07

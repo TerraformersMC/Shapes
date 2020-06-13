@@ -1,9 +1,9 @@
-package com.cumulus.shapes.impl.layer.transform;
+package com.terraformersmc.shapes.impl.layer.transform;
 
-import com.cumulus.shapes.api.Position;
-import com.cumulus.shapes.api.Shape;
-import com.cumulus.shapes.api.layer.Layer;
-import com.cumulus.shapes.api.Quaternion;
+import com.terraformersmc.shapes.api.Position;
+import com.terraformersmc.shapes.api.Shape;
+import com.terraformersmc.shapes.api.layer.Layer;
+import com.terraformersmc.shapes.api.Quaternion;
 
 import java.util.List;
 import java.util.function.Predicate;
