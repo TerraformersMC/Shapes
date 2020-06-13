@@ -1,4 +1,4 @@
-package com.cumulus.shapes.api;
+package com.terraformersmc.shapes.api;
 
 import java.util.function.Consumer;
 

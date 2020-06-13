@@ -1,7 +1,7 @@
-package com.cumulus.shapes.impl.validator;
+package com.terraformersmc.shapes.impl.validator;
 
-import com.cumulus.shapes.api.validator.AllMeetValidator;
-import com.cumulus.shapes.api.Position;
+import com.terraformersmc.shapes.api.validator.AllMeetValidator;
+import com.terraformersmc.shapes.api.Position;
 import net.minecraft.world.World;
 
 /**

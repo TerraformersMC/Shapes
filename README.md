@@ -1,3 +1,3 @@
-# com.cumulus.shapes.Shapes
+# Shapes
 
-Powerful voxel shapes library
+Powerful voxel shapes library by Wtoll and the Terraformers mod team.

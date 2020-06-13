@@ -1,4 +1,4 @@
-package com.cumulus.shapes.api;
+package com.terraformersmc.shapes.api;
 
 /**
  * @author <Wtoll> Will Toll on 2020-06-08

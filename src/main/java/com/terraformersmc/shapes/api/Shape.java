@@ -1,7 +1,7 @@
-package com.cumulus.shapes.api;
+package com.terraformersmc.shapes.api;
 
-import com.cumulus.shapes.api.layer.Layer;
-import com.cumulus.shapes.api.validator.Validator;
+import com.terraformersmc.shapes.api.layer.Layer;
+import com.terraformersmc.shapes.api.validator.Validator;
 
 import java.util.function.Consumer;
 import java.util.function.Predicate;

@@ -1,7 +1,7 @@
-package com.cumulus.shapes.impl;
+package com.terraformersmc.shapes.impl;
 
-import com.cumulus.shapes.api.Position;
-import com.cumulus.shapes.api.Shape;
+import com.terraformersmc.shapes.api.Position;
+import com.terraformersmc.shapes.api.Shape;
 
 /**
  * @author <Wtoll> Will Toll on 2020-06-07
@@ -24,7 +24,7 @@ public class Shapes {
                 Position.of(-a, 0, -b)
         );
     }
-    
+
 
 
 

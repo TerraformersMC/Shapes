@@ -1,6 +1,6 @@
-package com.cumulus.shapes.api.validator;
+package com.terraformersmc.shapes.api.validator;
 
-import com.cumulus.shapes.api.Shape;
+import com.terraformersmc.shapes.api.Shape;
 
 /**
  * @author <Wtoll> Will Toll on 2020-06-07
