@@ -6,16 +6,15 @@
   "name": "Shapes",
   "description": "Shapes lib",
   "authors": [
-    "Wtoll"
+    "Wtoll",
+    "TerraformersMC"
   ],
   "contact": {
-    "homepage": "https://github.com/Cumulus-Mods/Shapes",
-    "sources": "https://github.com/Cumulus-Mods/Shapes"
+    "homepage": "https://github.com/TerraformersMC/Shapes",
+    "sources": "https://github.com/TerraformersMC/Shapes"
   },
-
   "license": "MIT",
   "icon": "assets/shapes/icon.png",
-
   "environment": "*",
   "depends": {
     "fabricloader": ">=0.7.2",
