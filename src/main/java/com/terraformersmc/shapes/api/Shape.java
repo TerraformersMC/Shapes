@@ -3,6 +3,7 @@ package com.terraformersmc.shapes.api;
 import com.terraformersmc.shapes.api.layer.Layer;
 import com.terraformersmc.shapes.api.validator.Validator;
 
+import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
@@ -15,6 +16,9 @@ public interface Shape {
 
     static Shape of(Predicate<Position> equation, Position max, Position min) {
         return new Shape() {
+
+            private Optional<Boolean> valid = Optional.empty();
+
             @Override
             public Position max() {
                 return max;
@@ -28,6 +32,19 @@ public interface Shape {
             @Override
             public Predicate<Position> equation() {
                 return equation;
+            }
+
+            @Override
+            public Shape validate(Validator validator, Consumer<Shape> consumer) {
+                boolean valid = validator.validate(this);
+                if (valid) consumer.accept(this);
+                this.valid = Optional.of(valid);
+                return this;
+            }
+
+            // TODO: Rethink this impl
+            public boolean passValid() {
+                return this.valid.orElse(false);
             }
         };
     }
