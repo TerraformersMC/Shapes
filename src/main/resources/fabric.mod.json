@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Shapes",
-  "description": "Shapes lib",
+  "description": "A powerful voxel shapes library",
   "authors": [
     "Wtoll",
     "TerraformersMC"
@@ -20,5 +20,8 @@
     "fabricloader": ">=0.7.2",
     "fabric": "*",
     "minecraft": "1.16.x"
+  },
+  "custom": {
+    "modmenu:api": true
   }
 }
