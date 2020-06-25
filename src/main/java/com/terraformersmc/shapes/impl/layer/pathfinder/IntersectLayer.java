@@ -30,6 +30,6 @@ public class IntersectLayer extends PathfinderLayer {
 
     @Override
     public Predicate<Position> modifyEquation(Shape shape) {
-        return (pos) -> shape.equation().test(pos) && this.shape.equation().test(pos);
+        return (pos) -> shape.equation().test(pos.copy()) && this.shape.equation().test(pos.copy());
     }
 }
