@@ -1,3 +1,3 @@
-# Shapes
+# Shapes is now part of Terraform
 
-Powerful voxel shapes library by Wtoll and the Terraformers mod team.
+### See [https://github.com/TerraformersMC/Terraform](https://github.com/TerraformersMC/Terraform)'s terraform-shapes-api-v1 module for the latest version.
